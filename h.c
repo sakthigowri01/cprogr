@@ -2,9 +2,6 @@
 void printName(char* name,int count) 
 { 
     printf("%03d : %s\n",count+1,name); 
-    count+=1; 
-    if(count<10) 
-        printName(name,count); 
 } 
 int main() 
 { 
